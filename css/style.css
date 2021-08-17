@@ -7,6 +7,7 @@
 .jumbotron {
     background-image: url('../images/origami-004web.jpeg');
     background-size: cover;
+    opacity: 0.8;
     background-repeat: none;
     height: 800px;
 }
@@ -23,6 +24,8 @@
 .navItem:hover {
     font-size: 40px;
     cursor: pointer;
+    color: gold;
+    text-decoration: none;
 
 }
 
@@ -158,6 +161,31 @@ h1, h2, h3 {
     padding: 50px;
 }
 
+
+.footerNav {
+    background-color: darkslategray;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 25px;
+    
+}
+
+.footStyle {
+    color: white;
+    
+}
+
+.footStyle:hover {
+    text-decoration: none;
+    color: gold;
+}
 
 @media only screen and (max-width: 1200px){
     .videoGrid {
