@@ -3,6 +3,9 @@
 
 }*/
 
+html {
+    scroll-behavior: smooth;
+  }
 
 .jumbotron {
     background-image: url('../images/origami-004web.jpeg');
